@@ -40,7 +40,7 @@ def draw():
 def move():
     """Move ball and targets."""
     if randrange(40) == 0:
-        y = randrange(-150, 150)
+        y = randrange(-150, 151)
         target = vector(200, y)
         targets.append(target)
 
