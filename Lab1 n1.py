@@ -12,7 +12,7 @@ for char in pas1:
         lower = True
     elif char.isupper():
         upper = True
-    elif char in "@#$%&":
+    elif char in "@#$%&?!":
         spec = True
 if len(pas1) >= 6 and numeric and upper and lower and spec:
     print("Пароль подходит")
