@@ -19,7 +19,7 @@ if len(pas1) >= 6 and numeric and upper and lower and spec:
 else:
     print("Усложните пароль")
 pas2 = input('Введите пароль:')
-if pas1 == pas2:
-    print('Верно')
-else:
+while pas1 != pas2:
     print('Пароли не совпадают')
+    pas2 = input("Попробуйте снова")
+print("Пароли совпадают")
